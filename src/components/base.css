@@ -1,23 +1,24 @@
 @font-face {
-  font-family: "Avenir";
+  font-family: 'Avenir';
   font-weight: 400;
   font-style: normal;
-  src: url("/avenir-400.woff2") format("woff2");
+  src: url('/avenir-400.woff2') format('woff2');
   font-display: swap;
 }
 
 body {
-  font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
+  font-family: 'Avenir', Tahoma, Arial, Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.65;
-  color: #373F49;
-  background: #eee;
+  color: #373f49;
+  /* background: #eee; */
   margin: 0;
 }
 
 img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 h1,
@@ -56,6 +57,7 @@ a {
   padding: 0 0 0.4em 0;
   margin: 0 0 5vmin 0;
   border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 
 /**
@@ -69,4 +71,12 @@ a {
 
 .list-inline li {
   display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
